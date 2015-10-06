@@ -9,7 +9,7 @@
 #include <vector>
 using namespace std;
 
-int prime[] = {11, 23, 29, 37, 41, 43, 47, 53, 59, 61};
+int prime[] = {11, 23, 29, 37, 41, 43, 47, 53, 59};
 vector<long long> result;
 void QFContract(long long target) {
     int temp = (int)pow(target, 0.5) + 1;
@@ -30,7 +30,7 @@ void QFContract(long long target) {
 int main() {
     int n;
     cin >> n;
-    for (int i = 0; prime[i] < n && i < 10; i++) {
+    for (int i = 0; prime[i] <= n && i < 10; i++) {
         result.clear();
         long long temp = (long long int)pow(2, prime[i]) - 1;
         QFContract(temp);
