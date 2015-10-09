@@ -1,0 +1,45 @@
+body {
+    color: rgb(64, 64, 64);
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+    background-attachment: fixed;
+}
+h1,h2 {
+    color: rgb(164, 164, 0);
+    background-color: rgb(240, 240, 240);
+    font-family: "Century Gothic", Futura, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+h2 { 
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: left;
+}
+
+ul {
+    list-style-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+a {
+    color: rgb(164, 164, 0);    
+}
+/*将超链接图片(W3C)周围的黄色边框去掉*/
+a img {
+    border: none;
+}
+blockquote {
+    font-style: italic;
+    background-color: rgb(255, 255, 200);
+}
+/*由于设置超链接中第一个图片的大小(之前的链接不能用了,所以新找了一个图片链接)*/
+#another_img {
+    width: 88px;
+    height: 31px;
+}

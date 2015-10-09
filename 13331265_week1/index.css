@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lucida Grande', '微软雅黑', sans-serif;
+    color: #666666;
+}
+
+img {
+    border: none;
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+}
+#container {
+    text-align: center;
+}
+#title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.message {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pie {
+    width: 150px;
+    padding: 2px 15px;
+    font-size: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.pie .link {
+    color: #00ffff;
+    text-decoration: none;
+    -webkit-transition: background 250ms ease-in, color 205ms ease-in;
+}
+.pie .link:hover {
+    color: white;
+    background: #BBD631;
+}
+
