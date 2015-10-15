@@ -1,0 +1,136 @@
+body {
+    background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000);
+    font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+#banner {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 50px;
+	overflow: hidden;
+}
+
+#mainHead {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+#content {
+    width: 800px;
+    border: 4px gray solid;
+    margin: auto;
+}
+
+#review {
+    width: 550px;
+    padding: 0;
+    float: left;
+}
+
+#rotten {
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+	background-repeat: repeat-x;
+}
+
+#rating {
+    font-size: 48pt;
+	font-weight: bold;
+    color: red;
+	vertical-align: 12%;
+}
+
+#totalReview {
+    font: 8pt;
+	color: white;
+	vertical-align: 100%;
+}
+
+#colum1,#colum2 {
+	padding: 0;
+    width: 47%;
+    float: left;
+}
+
+
+/*
+   由于水平margin不会重叠，所以需注意分别设置
+ 　参考网址：http://www.hujuntao.com/web/css/css-margin-overlap.html
+ */
+#colum1 {
+    margin-left: 2%;
+	margin-right: 1%;
+}
+#colum2 {
+    margin-left: 1%;
+	margin-right: 2%;
+}
+.pinglun {
+    margin-bottom: 3em;
+}
+.comment {
+    background-color: #E1D697;
+    font-weight: bold;
+	border: gray solid 2px;
+	margin: 0;
+	padding: 8px;
+}
+
+.author p img, .likeOrDislike {
+    float: left;
+	margin-right: 5px;
+}
+
+.author {
+    font-style: italic;
+}
+
+#overview {
+	width: 250px;
+	float: left;
+	margin-bottom: -15px;
+}
+dl {
+	width: 230px;
+	padding: 10px;
+	background-color: #A2B964;
+	font-family: Arial, sans-serif;
+	margin-top: -2px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -5px;
+}
+
+.term {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+#bottomBar {
+    text-align: center;
+    background-color: #A2B964;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	clear: both;
+}
+
+#validate {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}
+/*由于两张图片不一样大，调整为一样大，并且去边框*/
+#validate img{
+	width: 88px;
+	height: 31px;
+	border: none;
+}
