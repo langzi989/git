@@ -1,0 +1,331 @@
+#bottom-positioner {
+	left: 50%;
+	bottom: 100px;
+	position: fixed;
+	text-align: center;
+}
+
+span {
+	font-family:  Tahoma, Arial;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+
+/*set the opsition and size*/
+#info-bar {
+	width: 0px;
+	height: 0px;
+	display: block;
+	background-color: gray;
+	border-radius: 50%;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: relative;
+	top: 35px;
+	right: -20px;
+	z-index: 10;
+	opacity: 0;
+}
+#info-bar .info li img {
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+.info ul li {
+	list-style-type: none;
+}
+
+.info ul .user img {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 10%;
+	right: 55%;
+	opacity: 0;
+}
+
+.info ul .comment img {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 41%;
+	right: 60%;
+	opacity: 0;
+}
+
+.info ul .posted img {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 67%;
+	right: 65%;
+	opacity: 0;
+}
+
+.info ul .like img {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 67%;
+	right: 24%;
+	opacity: 0;
+}
+
+.info ul .user span{
+	position: absolute;
+	top: 10%;
+	right: 35%;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.info ul .comment span{
+	position: absolute;
+	top: 33%;
+	right: 25%;
+	font-size: 0px;
+	opacity: 0;
+}
+
+.info ul .posted span {
+	position: absolute;
+	top: 68%;
+	right: 52%;
+	font-size: 0px;
+	color: #079E6E;
+	opacity: 0;
+}
+
+.info ul .like span{
+	position: absolute;
+	top: 68%;
+	right: 12%;
+	font-size: 0px;
+	color: #079E6E;
+	opacity: 0;
+}
+.icon {
+	background: url("assets/images/atplus_white.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	background-color: rgb(180,180,180);
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	position: relative;
+}
+
+.apb {
+	position: relative;
+	z-index: 100;
+}
+
+#control-ring li {
+	background-color: gray;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	list-style-type: none;
+	z-index: 11;
+	height: 0px;
+	width: 0px;
+	position: relative;;
+}
+
+#control-ring .button img{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 22%;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+#control-ring .message img {
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 22%;
+	top: 50%;
+}
+
+#control-ring .message .unread {
+	position: absolute;
+	right: -9%;
+	top: -9%;
+	display: block;
+	width: 0;
+	height: 0;
+	background-color: red;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	font-size: 0;
+	opacity: 0;
+	-webkit-border-radius: 50%;
+}
+
+#control-ring .message img{
+	top: 9px;
+}
+
+.sign {
+	top: 55px;
+	right: 25px;
+	opacity: 0;
+}
+.setting {
+	top: 50px;
+	right: 30px;
+	opacity: 0;
+}
+
+.message {
+	top: 50px;
+	right: 23px;
+	opacity: 0;
+}
+
+.history {
+	top: 50px;
+	right: 22px;
+	opacity: 0;
+}
+
+.mask {
+	top: 50px;
+	right: 25px;
+	opacity: 0;
+}
+#button:hover .icon {
+	background-image: url("assets/images/atplus_green.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: blue;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	transition: height 1s, width 1s; 
+	-moz-transition: height 1s, width 1s;
+	-webkit-transition: height 1s, width 1s;
+}
+#button:hover .sign {
+	opacity: 1;
+	width: 40px;
+	height: 40px; 
+	top: 125px;
+	right: 8px;
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s; 
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s; 
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s; 
+}
+#button:hover .setting {
+	opacity: 1;
+	top: 168px;
+	right: 55px;
+	width: 40px;
+	height: 40px;
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+}
+#button:hover .message {
+	opacity: 1;
+	top: 185px;
+	right: 100px;
+	width: 40px;
+	height: 40px; 
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+}
+#button:hover .history {
+	opacity: 1;
+	top: 180px;
+	right: 115px;
+	width: 40px;
+	height: 40px; 
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+}
+#button:hover .mask {
+	opacity: 1;
+	top: 177px;
+	right: 105px;
+	width: 40px;
+	height: 40px; 
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+}
+#button:hover #info-bar {
+	opacity: 1;
+	top: 220px;
+	right: 30px;
+	width: 120px;
+	height: 120px;
+	transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, right 1s, top 1s, width 1s, height 1s;
+}
+
+#button:hover #control-ring .button img, #info-bar .info li img{
+	width: 22px;
+	height: 22px;
+	opacity: 1;
+	transition: opacity 1s, width 1s, height 1s;
+	-moz-transition: opacity 1s, width 1s, height 1s;
+	-webkit-transition: opacity 1s, width 1s, height 1s;
+}
+#button:hover .info ul .comment span {
+	font-size: 30px;
+	opacity: 1;
+	transition: opacity 1s, font-size, 1s;
+	-webkit-transition: opacity 1s, font-size 1s;
+	-moz-transition: opacity 1s, font-size 1s;
+}
+
+#button:hover .info ul .user span {
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 1s, font-size, 1s;
+	-webkit-transition: opacity 1s, font-size, 1s;
+	-moz-transition: opacity 1s, font-size, 1s;
+}
+#button:hover .info ul .posted span {
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 1s, font-size, 1s;
+	-webkit-transition: opacity 1s, font-size, 1s;
+	-moz-transition: opacity 1s, font-size, 1s;
+}
+#button:hover .info ul .like span {
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 1s, font-size, 1s;
+	-webkit-transition: opacity 1s, font-size, 1s;
+	-moz-transition: opacity 1s, font-size, 1s;
+}
+
+#button:hover #control-ring .message .unread {
+	width: 20px;
+	height: 20px;
+	opacity: 1;
+	font-size: 14px;
+	transition: opacity 1s, width 1s, height 1s, font-size, 1s;
+	-moz-transition: opacity 1s, width 1s, height 1s, font-size, 1s;
+	-webkit-transition: opacity 1s, width 1s, height 1s, font-size, 1s;
+}
