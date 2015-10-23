@@ -27,11 +27,17 @@ span {
 	right: -20px;
 	z-index: 10;
 	opacity: 0;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 #info-bar .info li img {
 	width: 0;
 	height: 0;
 	opacity: 0;
+	transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 .info ul li {
 	list-style-type: none;
@@ -79,6 +85,9 @@ span {
 	right: 35%;
 	font-size: 16px;
 	opacity: 0;
+	transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
 }
 
 .info ul .comment span{
@@ -87,6 +96,9 @@ span {
 	right: 25%;
 	font-size: 0px;
 	opacity: 0;
+	transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
 }
 
 .info ul .posted span {
@@ -96,6 +108,9 @@ span {
 	font-size: 0px;
 	color: #079E6E;
 	opacity: 0;
+	transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
 }
 
 .info ul .like span{
@@ -105,6 +120,9 @@ span {
 	font-size: 0px;
 	color: #079E6E;
 	opacity: 0;
+	transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, font-size, 1s ease 1s;
 }
 .icon {
 	background: url("assets/images/atplus_white.png");
@@ -119,6 +137,9 @@ span {
 	height: 30px;
 	text-align: center;
 	position: relative;
+	transition: height 1s ease 1s, width 1s ease 1s, background-color 1s ease 1s, background 1s ease 1s; 
+	-moz-transition: height 1s ease 1s, width 1s ease 1s, background-color 1s ease 1s, background 1s ease 1s;
+	-webkit-transition: height 1s ease 1s, width 1s ease 1s, background-color 1s ease 1s, background 1s ease 1s;
 }
 
 .apb {
@@ -148,6 +169,9 @@ span {
 	width: 0;
 	height: 0;
 	opacity: 0;
+	transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 
 #control-ring .message img {
@@ -156,6 +180,9 @@ span {
 	position: absolute;
 	right: 22%;
 	top: 50%;
+	transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 
 #control-ring .message .unread {
@@ -168,9 +195,12 @@ span {
 	background-color: red;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	font-size: 0;
 	opacity: 0;
-	-webkit-border-radius: 50%;
+	transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s, font-size 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s, font-size 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, width 1s ease 1s, height 1s ease 1s, font-size 1s ease 1s;
 }
 
 #control-ring .message img{
@@ -181,29 +211,50 @@ span {
 	top: 55px;
 	right: 25px;
 	opacity: 0;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s; 
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 .setting {
 	top: 50px;
 	right: 30px;
 	opacity: 0;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 
 .message {
 	top: 50px;
 	right: 23px;
 	opacity: 0;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 
 .history {
 	top: 50px;
 	right: 22px;
 	opacity: 0;
+	transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 
 .mask {
 	top: 50px;
 	right: 25px;
 	opacity: 0;
+	transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-moz-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
+	-webkit-transition: opacity 1s ease 1s, right 1s ease 1s, top 1s ease 1s, width 1s ease 1s, height 1s ease 1s;
 }
 #button:hover .icon {
 	background-image: url("assets/images/atplus_green.png");
@@ -217,9 +268,9 @@ span {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	transition: height 1s, width 1s; 
-	-moz-transition: height 1s, width 1s;
-	-webkit-transition: height 1s, width 1s;
+	transition: height 1s, width 1s, background-color 1s, background 1s; 
+	-moz-transition: height 1s, width 1s, background-color 1s, background 1s;
+	-webkit-transition: height 1s, width 1s, background-color 1s, background 1s;
 }
 #button:hover .sign {
 	opacity: 1;
@@ -325,7 +376,7 @@ span {
 	height: 20px;
 	opacity: 1;
 	font-size: 14px;
-	transition: opacity 1s, width 1s, height 1s, font-size, 1s;
-	-moz-transition: opacity 1s, width 1s, height 1s, font-size, 1s;
-	-webkit-transition: opacity 1s, width 1s, height 1s, font-size, 1s;
+	transition: opacity 1s, width 1s, height 1s, font-size 1s;
+	-moz-transition: opacity 1s, width 1s, height 1s, font-size 1s;
+	-webkit-transition: opacity 1s, width 1s, height 1s, font-size 1s;
 }
