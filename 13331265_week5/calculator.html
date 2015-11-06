@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta name="keywords" content="calculator" />
+		<meta http-equiv="Content-Type" content="text/html;Charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="calculator.css" />
+		<script src="calculator.js" type="text/javascript"></script>	
+	</head>
+
+	<body onload="runOnBeforeLoad()">
+		<div id="panel">
+			<input type="text" name="num_screen" id="input_field" value="" readonly="true"/ >
+			<div class="row">
+				<div class="m_right special" onclick="reset()">CE</div>
+				<div class="m_right special" onclick="input('(')">(</div>
+				<div class="m_right special" onclick="input(')')">)</div>
+				<div class="operator" onclick="input('÷')">÷</div>
+			</div>
+
+			<div class="row">
+				<div class="m_right" onclick="input('7')">7</div>
+				<div class="m_right" onclick="input('8')">8</div>
+				<div class="m_right" onclick="input('9')">9</div>
+				<div class="operator" onclick="input('×')">×</div>
+			</div>
+
+			<div class="row">
+				<div class="m_right" onclick="input('4')">4</div>
+				<div class="m_right" onclick="input('5')">5</div>
+				<div class="m_right" onclick="input('6')">6</div>
+				<div class="operator" onclick="input('-')">-</div>
+			</div>
+
+			<div class="row">
+				<div class="m_right" onclick="input('1')">1</div>
+				<div class="m_right" onclick="input('2')">2</div>
+				<div class="m_right" onclick="input('3')">3</div>
+				<div class="operator" onclick="input('+')">+</div>
+			</div>
+
+			<div class="row">
+				<div class="m_right" onclick="back()">←</div>
+				<div class="m_right" onclick="input('0')">0</div>
+				<div class="m_right" onclick="input('.')">.</div>
+				<div class="operator" onclick="equal()">=</div>
+			</div>
+		</div>
+</body>
+</html>
