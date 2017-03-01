@@ -8,7 +8,7 @@
 #include <cstring>
 using namespace std;
 
-int matrix[10][10];
+int 5matrix[10][10];
 /*
 记录中间状态，减少递归次数，在动态规划中常用
 用于存储从(0,0)到(row,col)总和为sum能不能走到，初始化为-1，若可到记为１，否则0
