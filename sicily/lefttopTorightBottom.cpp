@@ -3,6 +3,7 @@
 走到右下角（Ｍ，Ｎ）,每一步只能向右或者向下，并不能走出矩阵的范围．你所经过的方
 格里面的数字都必须被选取，请找出一条最适合的道路，使得在路上最选取的数字之和尽可能小的整数，输出最小整数
 */
+//this is a test
 #include <iostream>
 #include <cstring>
 using namespace std;
